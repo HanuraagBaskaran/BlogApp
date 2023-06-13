@@ -1,0 +1,23 @@
+.fadeh1-enter {
+    opacity: 0;
+  }
+  
+  .fadeh1-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+
+  .fadeh3-enter {
+    opacity: 0;
+  }
+  
+  .fadeh3-enter-active {
+    opacity: 1;
+    transition: opacity 2s ease-in-out;
+  }
+
+
+
+
+  

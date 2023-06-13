@@ -1,0 +1,55 @@
+
+.custom-rounded-circle{
+    width: 350px;
+    height: 450px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fade-in 1s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
+  .slide-in {
+    animation: slide-in 1s forwards;
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  
+  @keyframes slide-in {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .custom-container {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .custom-container.show {
+    opacity: 1;
+  }
+
+  .custom-column-2{
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+
+  .custom-column-2 .show{
+    opacity: 1;
+  }
